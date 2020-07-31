@@ -47,9 +47,7 @@ int main()
   auto time=std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
 
   std::cout << "Time Elapsed: " << time*1e-6 << " ms" << std::endl;
-
-  c.Print();
-
+  
   delete[] h;
   delete[] t;
 
