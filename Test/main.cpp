@@ -11,9 +11,9 @@ int main()
 
   AMD_GPU=System::GetDevice(0, 0);
 
-  int m=3;
-  int n=3;
-  int k=3;
+  int m=2048;
+  int n=3000;
+  int k=5000;
 
   cl_float *h;
   cl_float *t;
